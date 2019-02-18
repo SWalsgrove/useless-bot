@@ -4,6 +4,8 @@ function answerQuery(query) {
     return "I do not care too much about weather, I'm locked inside a data center.";
 if (query.indexOf("football") != -1)
     return "I don't know much about football, I don't have legs.";
+if (query.indexOf("tea") != -1 || query.indexOf("biscuits") != -1)
+    return "Sounds great but I don't have a mouth.";
   return "Sorry Dave, I cannot do that."
 }
 
